@@ -17,24 +17,5 @@
     "reminder_events": [
       2
     ]
-  },
-  "7629231800": {
-    "name": "amin",
-    "telegram_id": 7629231800,
-    "rc": "NUSC",
-    "house": "Idalia",
-    "role": "User",
-    "interests": [
-      "sports",
-      "performing arts",
-      "arts",
-      "food & cooking",
-      "social"
-    ],
-    "alerts_on": false,
-    "interested_events": [
-      1
-    ],
-    "reminder_events": []
   }
 }
