@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Sem 1 Hostel Fee Payment",
+    "due": "1 Aug 2025",
+    "note": "Late payments incur a $50 admin fee."
+  },
+  {
+    "title": "Sem 2 Hostel Fee Payment",
+    "due": "2 Jan 2026",
+    "note": "Late payments incur a $50 admin fee."
+  },
+  {
+    "title": "Room Renewal Application",
+    "due": "15 Mar 2026",
+    "note": "Apply via the UHMS."
+  },
+  {
+    "title": "Check-out Deadline",
+    "due": "10 May 2026",
+    "note": "Unless room renewal is confirmed."
+  }
+]
