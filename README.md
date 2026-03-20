@@ -14,6 +14,65 @@ Residents often face fragmented information across multiple Telegram groups and 
 
 ---
 
+## 📝 Registration Flow
+
+When a user starts the bot for the first time, nus_resiBot guides them through a simple onboarding process:
+
+1. **Start Command**
+
+   * User sends `/start`
+   * Bot initiates registration
+
+2. **Name Input**
+
+   * User enters their name
+
+3. **RC Selection**
+
+   * User selects their Residential College (RC)
+
+4. **House Selection**
+
+   * User selects their House within the RC
+
+5. **Interest Selection**
+
+   * User chooses one interest category:
+
+     * sports
+     * performing arts
+     * arts
+     * food & cooking
+     * wellness
+     * social
+     * personal development
+
+6. **Registration Complete**
+
+   * User data is stored in `users.json`
+   * Bot redirects user to main menu
+<img width="1190" height="703" alt="Screenshot 2026-03-20 at 10 32 44 AM" src="https://github.com/user-attachments/assets/4845b4f9-b197-464f-a5fa-6d988da080e4" />
+
+---
+
+### 📌 Example Stored User
+
+```json id="user-example"
+{
+  "name": "Amin",
+  "telegram_id": 123456789,
+  "rc": "NUSC",
+  "house": "Idalia",
+  "role": "User",
+  "interests": ["social"],
+  "alerts_on": false,
+  "interested_events": [],
+  "reminder_events": []
+}
+```
+
+---
+
 ## ✨ Key Features
 
 ### 🧭 Main Menu
